@@ -13,6 +13,10 @@
         <input type="text" id="streamLink" placeholder="TikTok стрим сілтемесін енгіз">
         <button onclick="startStream()">Бастау</button>
         <div id="streamFrame"></div>
+        <div id="likeSection" style="display: none;">
+            <button id="likeButton" onclick="likeStream()">👍 Лайк</button>
+            <p id="likeCount">Лайк: 0</p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
