@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+    background-color: black;
+    color: limegreen;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 0 0 5px limegreen, 0 0 10px limegreen;
+}
+
+.glitch {
+    position: relative;
+    animation: glitch 1s infinite alternate;
+}
+
+@keyframes glitch {
+    0% { text-shadow: 2px 2px 5px limegreen; }
+    100% { text-shadow: -2px -2px 5px limegreen; }
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    background-color: #111;
+    color: limegreen;
+    border: 1px solid limegreen;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    background-color: #222;
+    color: limegreen;
+    border: 1px solid limegreen;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: limegreen;
+    color: black;
+}
